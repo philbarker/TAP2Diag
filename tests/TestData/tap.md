@@ -15,11 +15,11 @@ classDiagram
 	class AuthorShape
 	AuthorShape : target(class sdo#58;Person)
 	AuthorShape : target(objectsof dct#58;creator)
-	BookShape : dct#58;title
-	BookShape --> AuthorShape : dct#58;creator
-	BookShape : sdo#58;isbn
-	BookShape : rdf#58;type
-	AuthorShape : rdf#58;type
-	AuthorShape : foaf#58;givenName
-	AuthorShape : foaf#58;familyName
+	BookShape : dct#58;title #40;Title#41;
+	BookShape --> AuthorShape : dct#58;creator #40;Author#41;
+	BookShape : sdo#58;isbn #40;ISBN-13#41;
+	BookShape : rdf#58;type #40;Type#41;
+	AuthorShape : rdf#58;type #40;Type#41;
+	AuthorShape : foaf#58;givenName #40;Given name#41;
+	AuthorShape : foaf#58;familyName #40;Family name#41;
 ```
