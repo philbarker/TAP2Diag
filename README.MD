@@ -1,0 +1,1 @@
+TAP2Diag converts a Dublin Core Tabular Application Profile into code for a mermaid class diagram.
